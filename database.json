@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "databaseVersion": 3,
+  "databaseVersion": 4,
   "apps": [
     {
       "id": "blender",
@@ -16,6 +16,22 @@
       ],
       "presence": {
         "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/blender.png"
+      }
+    },
+    {
+      "id": "unreal-engine",
+      "name": "Unreal Engine",
+      "category": "development",
+      "subcategory": "game-engine",
+      "match": [
+        {
+          "processName": "UnrealEditor",
+          "productName": "Unreal Editor",
+          "originalFilename": "UnrealEditor.exe"
+        }
+      ],
+      "presence": {
+        "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/unreal-engine.png"
       }
     },
     {
