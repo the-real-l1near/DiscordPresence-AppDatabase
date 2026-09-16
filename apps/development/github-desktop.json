@@ -5,7 +5,9 @@
   "subcategory": "version-control",
   "match": [
     {
-      "processName": "electron"
+      "processName": "GitHubDesktop",
+      "productName": "GitHub Desktop",
+      "originalFilename": "electron.exe"
     }
   ],
   "presence": {

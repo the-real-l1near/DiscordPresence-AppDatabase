@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "databaseVersion": 9,
+  "databaseVersion": 10,
   "apps": [
     {
       "id": "android-studio",
@@ -62,7 +62,7 @@
     },
     {
       "id": "davinci-resolve",
-      "name": "davinci-resolve",
+      "name": "DaVinci Resolve",
       "category": "creative",
       "subcategory": "video-editing",
       "match": [
@@ -97,7 +97,9 @@
       "subcategory": "version-control",
       "match": [
         {
-          "processName": "electron"
+          "processName": "GitHubDesktop",
+          "productName": "GitHub Desktop",
+          "originalFilename": "electron.exe"
         }
       ],
       "presence": {
