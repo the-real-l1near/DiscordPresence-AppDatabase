@@ -1,0 +1,16 @@
+{
+  "id": "blender",
+  "name": "Blender",
+  "category": "creative",
+  "subcategory": "3d",
+  "match": [
+    {
+      "processName": "blender",
+      "productName": "Blender",
+      "originalFilename": "blender.exe"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/blender.png"
+  }
+}

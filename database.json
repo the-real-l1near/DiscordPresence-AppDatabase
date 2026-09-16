@@ -1,7 +1,23 @@
 {
   "schemaVersion": 1,
-  "databaseVersion": 2,
+  "databaseVersion": 3,
   "apps": [
+    {
+      "id": "blender",
+      "name": "Blender",
+      "category": "creative",
+      "subcategory": "3d",
+      "match": [
+        {
+          "processName": "blender",
+          "productName": "Blender",
+          "originalFilename": "blender.exe"
+        }
+      ],
+      "presence": {
+        "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/blender.png"
+      }
+    },
     {
       "id": "visual-studio-code",
       "name": "Visual Studio Code",
