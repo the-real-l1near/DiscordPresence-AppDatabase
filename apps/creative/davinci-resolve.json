@@ -1,0 +1,16 @@
+{
+  "id": "davinci-resolve",
+  "name": "davinci-resolve",
+  "category": "creative",
+  "subcategory": "video-editing",
+  "match": [
+    {
+      "processName": "Resolve",
+      "productName": "DaVinci Resolve",
+      "originalFilename": "Resolve.exe"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/davinci-resolve.png"
+  }
+}

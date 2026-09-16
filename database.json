@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "databaseVersion": 7,
+  "databaseVersion": 8,
   "apps": [
     {
       "id": "blender",
@@ -16,6 +16,22 @@
       ],
       "presence": {
         "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/blender.png"
+      }
+    },
+    {
+      "id": "davinci-resolve",
+      "name": "davinci-resolve",
+      "category": "creative",
+      "subcategory": "video-editing",
+      "match": [
+        {
+          "processName": "Resolve",
+          "productName": "DaVinci Resolve",
+          "originalFilename": "Resolve.exe"
+        }
+      ],
+      "presence": {
+        "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/davinci-resolve.png"
       }
     },
     {
