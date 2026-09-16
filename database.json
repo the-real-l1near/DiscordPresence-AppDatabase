@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "databaseVersion": 7,
+  "databaseVersion": 8,
   "apps": [
     {
       "id": "blender",
