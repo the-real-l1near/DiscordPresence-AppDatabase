@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "databaseVersion": 6,
+  "databaseVersion": 7,
   "apps": [
     {
       "id": "blender",
@@ -32,6 +32,22 @@
       ],
       "presence": {
         "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/intellij-idea.png"
+      }
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "category": "creative",
+      "subcategory": "digital-painting",
+      "match": [
+        {
+          "processName": "krita",
+          "productName": "Krita",
+          "originalFilename": "krita.exe"
+        }
+      ],
+      "presence": {
+        "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/krita.png"
       }
     },
     {
