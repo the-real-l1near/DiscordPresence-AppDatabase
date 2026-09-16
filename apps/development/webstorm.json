@@ -1,0 +1,14 @@
+{
+  "id": "webstorm",
+  "name": "WebStorm",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "webstorm64"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/webstorm.png"
+  }
+}

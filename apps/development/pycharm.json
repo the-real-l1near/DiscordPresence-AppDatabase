@@ -1,0 +1,14 @@
+{
+  "id": "pycharm",
+  "name": "PyCharm",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "pycharm64"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/pycharm.png"
+  }
+}

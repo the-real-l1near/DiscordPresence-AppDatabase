@@ -1,0 +1,14 @@
+{
+  "id": "visual-studio",
+  "name": "Visual Studio",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "devenv"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/visual-studio.png"
+  }
+}

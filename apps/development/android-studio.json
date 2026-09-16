@@ -1,0 +1,14 @@
+{
+  "id": "android-studio",
+  "name": "Android Studio",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "studio64"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/android-studio.png"
+  }
+}

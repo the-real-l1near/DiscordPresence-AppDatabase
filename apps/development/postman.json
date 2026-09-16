@@ -1,0 +1,14 @@
+{
+  "id": "postman",
+  "name": "Postman",
+  "category": "development",
+  "subcategory": "api-client",
+  "match": [
+    {
+      "processName": "Postman"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/postman.png"
+  }
+}

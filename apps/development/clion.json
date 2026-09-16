@@ -1,0 +1,14 @@
+{
+  "id": "clion",
+  "name": "CLion",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "clion64"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/clion.png"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "github-desktop",
+  "name": "GitHub Desktop",
+  "category": "development",
+  "subcategory": "version-control",
+  "match": [
+    {
+      "processName": "electron"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/github-desktop.png"
+  }
+}

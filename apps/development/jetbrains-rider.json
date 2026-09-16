@@ -1,0 +1,14 @@
+{
+  "id": "jetbrains-rider",
+  "name": "JetBrains Rider",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "rider64"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/jetbrains-rider.png"
+  }
+}
