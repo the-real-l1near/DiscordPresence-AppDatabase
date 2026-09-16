@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "databaseVersion": 4,
+  "databaseVersion": 5,
   "apps": [
     {
       "id": "blender",
@@ -16,6 +16,22 @@
       ],
       "presence": {
         "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/blender.png"
+      }
+    },
+    {
+      "id": "intellij-idea",
+      "name": "IntelliJ IDEA",
+      "category": "development",
+      "subcategory": "ide",
+      "match": [
+        {
+          "processName": "idea64",
+          "productName": "IntelliJ IDEA",
+          "originalFilename": "idea64.exe"
+        }
+      ],
+      "presence": {
+        "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/intellij-idea.png"
       }
     },
     {
