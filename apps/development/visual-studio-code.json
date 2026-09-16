@@ -1,0 +1,15 @@
+{
+  "id": "visual-studio-code",
+  "name": "Visual Studio Code",
+  "category": "development",
+  "subcategory": "code-editor",
+  "match": [
+    {
+      "processName": "Code",
+      "productName": "Visual Studio Code"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/visual-studio-code.png"
+  }
+}

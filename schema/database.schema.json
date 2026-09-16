@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-real-l1near/DiscordPresence-AppDatabase/blob/main/schema/database.schema.json",
+  "title": "DiscordPresence Application Database",
+  "description": "Generated application database consumed by DiscordPresence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "databaseVersion",
+    "apps"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Database structure version understood by DiscordPresence clients."
+    },
+    "databaseVersion": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Monotonically increasing database content version."
+    },
+    "apps": {
+      "type": "array",
+      "items": {
+        "$ref": "app.schema.json"
+      }
+    }
+  }
+}

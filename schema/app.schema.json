@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-real-l1near/DiscordPresence-AppDatabase/blob/main/schema/app.schema.json",
+  "title": "DiscordPresence Application Record",
+  "description": "Schema for a curated DiscordPresence application record.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "category",
+    "subcategory",
+    "match",
+    "presence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable lowercase kebab-case identifier for the application."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable application name."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "development",
+        "creative"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "minLength": 1
+    },
+    "match": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/matchRule"
+      }
+    },
+    "presence": {
+      "$ref": "#/$defs/presence"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "category": {
+            "const": "development"
+          }
+        },
+        "required": [
+          "category"
+        ]
+      },
+      "then": {
+        "properties": {
+          "subcategory": {
+            "enum": [
+              "ide",
+              "code-editor",
+              "version-control",
+              "database",
+              "api-client",
+              "container",
+              "game-engine",
+              "embedded",
+              "network-tool",
+              "terminal"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "category": {
+            "const": "creative"
+          }
+        },
+        "required": [
+          "category"
+        ]
+      },
+      "then": {
+        "properties": {
+          "subcategory": {
+            "enum": [
+              "image-editing",
+              "digital-painting",
+              "vector-design",
+              "3d",
+              "cad",
+              "animation",
+              "compositing",
+              "video-editing",
+              "publishing",
+              "streaming",
+              "audio-production"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "matchRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "processName"
+      ],
+      "properties": {
+        "processName": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Process name without the .exe extension."
+        },
+        "productName": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Windows ProductName file metadata used as an additional identity constraint."
+        },
+        "originalFilename": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Windows OriginalFilename file metadata used as an additional identity constraint."
+        }
+      }
+    },
+    "presence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "largeImage"
+      ],
+      "properties": {
+        "largeImage": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "HTTPS URL used as the Discord activity large image."
+        }
+      }
+    }
+  }
+}
