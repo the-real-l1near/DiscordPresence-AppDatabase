@@ -1,0 +1,14 @@
+{
+  "id": "opentoonz",
+  "name": "OpenToonz",
+  "category": "creative",
+  "subcategory": "animation",
+  "match": [
+    {
+      "processName": "OpenToonz"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/opentoonz.png"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "eclipse-ide",
+  "name": "Eclipse IDE",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "eclipse"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/eclipse-ide.png"
+  }
+}

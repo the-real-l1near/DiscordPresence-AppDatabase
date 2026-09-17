@@ -1,0 +1,14 @@
+{
+  "id": "gimp",
+  "name": "GIMP",
+  "category": "creative",
+  "subcategory": "image-editing",
+  "match": [
+    {
+      "processName": "gimp-3.0"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/gimp.png"
+  }
+}

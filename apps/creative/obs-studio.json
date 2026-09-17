@@ -1,0 +1,14 @@
+{
+  "id": "obs-studio",
+  "name": "OBS Studio",
+  "category": "creative",
+  "subcategory": "streaming",
+  "match": [
+    {
+      "processName": "obs64"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/obs-studio.png"
+  }
+}

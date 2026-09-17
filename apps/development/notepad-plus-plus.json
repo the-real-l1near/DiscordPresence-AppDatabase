@@ -1,0 +1,14 @@
+{
+  "id": "notepad-plus-plus",
+  "name": "Notepad\u002B\u002B",
+  "category": "development",
+  "subcategory": "code-editor",
+  "match": [
+    {
+      "processName": "notepad\u002B\u002B"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/notepad-plus-plus.png"
+  }
+}

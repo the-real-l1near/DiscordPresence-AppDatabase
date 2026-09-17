@@ -1,0 +1,14 @@
+{
+  "id": "codeblocks",
+  "name": "Code::Blocks",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "CodeBlocks"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/codeblocks.png"
+  }
+}

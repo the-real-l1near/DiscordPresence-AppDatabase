@@ -1,0 +1,14 @@
+{
+  "id": "unity",
+  "name": "Unity Editor",
+  "category": "development",
+  "subcategory": "game-engine",
+  "match": [
+    {
+      "processName": "Unity"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/unity.png"
+  }
+}

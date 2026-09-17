@@ -1,0 +1,14 @@
+{
+  "id": "smartgit",
+  "name": "SmartGit",
+  "category": "development",
+  "subcategory": "version-control",
+  "match": [
+    {
+      "processName": "smartgit"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/smartgit.png"
+  }
+}

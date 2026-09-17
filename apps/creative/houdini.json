@@ -1,0 +1,14 @@
+{
+  "id": "houdini",
+  "name": "Houdini",
+  "category": "creative",
+  "subcategory": "3d",
+  "match": [
+    {
+      "processName": "houdinifx"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/houdini.png"
+  }
+}

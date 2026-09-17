@@ -1,0 +1,14 @@
+{
+  "id": "adobe-photoshop",
+  "name": "Adobe Photoshop",
+  "category": "creative",
+  "subcategory": "image-editing",
+  "match": [
+    {
+      "processName": "Photoshop"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/adobe-photoshop.png"
+  }
+}

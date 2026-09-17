@@ -1,0 +1,14 @@
+{
+  "id": "fl-studio",
+  "name": "FL Studio",
+  "category": "creative",
+  "subcategory": "audio-production",
+  "match": [
+    {
+      "processName": "FL64"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/fl-studio.png"
+  }
+}

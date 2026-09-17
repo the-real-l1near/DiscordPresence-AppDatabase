@@ -1,0 +1,14 @@
+{
+  "id": "rstudio",
+  "name": "RStudio",
+  "category": "development",
+  "subcategory": "ide",
+  "match": [
+    {
+      "processName": "rstudio"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/rstudio.png"
+  }
+}

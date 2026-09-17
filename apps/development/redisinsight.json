@@ -1,0 +1,14 @@
+{
+  "id": "redisinsight",
+  "name": "RedisInsight",
+  "category": "development",
+  "subcategory": "database",
+  "match": [
+    {
+      "processName": "Redis Insight"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/redisinsight.png"
+  }
+}

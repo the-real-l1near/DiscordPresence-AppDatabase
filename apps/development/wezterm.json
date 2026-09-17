@@ -1,0 +1,14 @@
+{
+  "id": "wezterm",
+  "name": "WezTerm",
+  "category": "development",
+  "subcategory": "terminal",
+  "match": [
+    {
+      "processName": "wezterm-gui"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/wezterm.png"
+  }
+}

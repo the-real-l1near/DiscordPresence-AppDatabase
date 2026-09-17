@@ -1,0 +1,14 @@
+{
+  "id": "mongodb-compass",
+  "name": "MongoDB Compass",
+  "category": "development",
+  "subcategory": "database",
+  "match": [
+    {
+      "processName": "MongoDBCompass"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/mongodb-compass.png"
+  }
+}

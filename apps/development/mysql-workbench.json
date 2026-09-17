@@ -1,0 +1,14 @@
+{
+  "id": "mysql-workbench",
+  "name": "MySQL Workbench",
+  "category": "development",
+  "subcategory": "database",
+  "match": [
+    {
+      "processName": "MySQLWorkbench"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/mysql-workbench.png"
+  }
+}

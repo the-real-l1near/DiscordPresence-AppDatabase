@@ -1,0 +1,14 @@
+{
+  "id": "autodesk-3ds-max",
+  "name": "Autodesk 3ds Max",
+  "category": "creative",
+  "subcategory": "3d",
+  "match": [
+    {
+      "processName": "3dsmax"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/autodesk-3ds-max.png"
+  }
+}

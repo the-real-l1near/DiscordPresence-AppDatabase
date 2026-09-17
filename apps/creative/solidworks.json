@@ -1,0 +1,14 @@
+{
+  "id": "solidworks",
+  "name": "SOLIDWORKS",
+  "category": "creative",
+  "subcategory": "cad",
+  "match": [
+    {
+      "processName": "SLDWORKS"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/solidworks.png"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "category": "development",
+  "subcategory": "code-editor",
+  "match": [
+    {
+      "processName": "Cursor"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/cursor.png"
+  }
+}

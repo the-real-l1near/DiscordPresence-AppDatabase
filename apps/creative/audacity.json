@@ -1,0 +1,14 @@
+{
+  "id": "audacity",
+  "name": "Audacity",
+  "category": "creative",
+  "subcategory": "audio-production",
+  "match": [
+    {
+      "processName": "Audacity"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/audacity.png"
+  }
+}

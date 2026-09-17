@@ -1,0 +1,14 @@
+{
+  "id": "vegas-pro",
+  "name": "VEGAS Pro",
+  "category": "creative",
+  "subcategory": "video-editing",
+  "match": [
+    {
+      "processName": "vegas"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/vegas-pro.png"
+  }
+}

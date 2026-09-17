@@ -1,0 +1,14 @@
+{
+  "id": "adobe-lightroom-classic",
+  "name": "Adobe Lightroom Classic",
+  "category": "creative",
+  "subcategory": "image-editing",
+  "match": [
+    {
+      "processName": "Lightroom"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/adobe-lightroom-classic.png"
+  }
+}

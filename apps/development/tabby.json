@@ -1,0 +1,14 @@
+{
+  "id": "tabby",
+  "name": "Tabby",
+  "category": "development",
+  "subcategory": "terminal",
+  "match": [
+    {
+      "processName": "Tabby"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/tabby.png"
+  }
+}

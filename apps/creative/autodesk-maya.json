@@ -1,0 +1,14 @@
+{
+  "id": "autodesk-maya",
+  "name": "Autodesk Maya",
+  "category": "creative",
+  "subcategory": "3d",
+  "match": [
+    {
+      "processName": "maya"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/autodesk-maya.png"
+  }
+}

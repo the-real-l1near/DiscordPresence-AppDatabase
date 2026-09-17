@@ -1,0 +1,14 @@
+{
+  "id": "insomnia",
+  "name": "Insomnia",
+  "category": "development",
+  "subcategory": "api-client",
+  "match": [
+    {
+      "processName": "Insomnia"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/insomnia.png"
+  }
+}

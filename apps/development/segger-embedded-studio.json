@@ -1,0 +1,14 @@
+{
+  "id": "segger-embedded-studio",
+  "name": "SEGGER Embedded Studio",
+  "category": "development",
+  "subcategory": "embedded",
+  "match": [
+    {
+      "processName": "emStudio"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/segger-embedded-studio.png"
+  }
+}

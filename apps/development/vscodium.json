@@ -1,0 +1,14 @@
+{
+  "id": "vscodium",
+  "name": "VSCodium",
+  "category": "development",
+  "subcategory": "code-editor",
+  "match": [
+    {
+      "processName": "VSCodium"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/vscodium.png"
+  }
+}

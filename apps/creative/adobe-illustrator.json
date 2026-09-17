@@ -1,0 +1,14 @@
+{
+  "id": "adobe-illustrator",
+  "name": "Adobe Illustrator",
+  "category": "creative",
+  "subcategory": "vector-design",
+  "match": [
+    {
+      "processName": "Illustrator"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/adobe-illustrator.png"
+  }
+}

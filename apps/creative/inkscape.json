@@ -1,0 +1,14 @@
+{
+  "id": "inkscape",
+  "name": "Inkscape",
+  "category": "creative",
+  "subcategory": "vector-design",
+  "match": [
+    {
+      "processName": "inkscape"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/inkscape.png"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sql-server-management-studio",
+  "name": "SQL Server Management Studio",
+  "category": "development",
+  "subcategory": "database",
+  "match": [
+    {
+      "processName": "Ssms"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/sql-server-management-studio.png"
+  }
+}

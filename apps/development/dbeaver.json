@@ -1,0 +1,14 @@
+{
+  "id": "dbeaver",
+  "name": "DBeaver",
+  "category": "development",
+  "subcategory": "database",
+  "match": [
+    {
+      "processName": "dbeaver"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/dbeaver.png"
+  }
+}

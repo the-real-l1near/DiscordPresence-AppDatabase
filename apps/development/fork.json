@@ -1,0 +1,14 @@
+{
+  "id": "fork",
+  "name": "Fork",
+  "category": "development",
+  "subcategory": "version-control",
+  "match": [
+    {
+      "processName": "Fork"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/fork.png"
+  }
+}

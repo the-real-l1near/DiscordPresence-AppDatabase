@@ -1,0 +1,14 @@
+{
+  "id": "adobe-indesign",
+  "name": "Adobe InDesign",
+  "category": "creative",
+  "subcategory": "publishing",
+  "match": [
+    {
+      "processName": "InDesign"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/adobe-indesign.png"
+  }
+}

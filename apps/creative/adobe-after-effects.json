@@ -1,0 +1,14 @@
+{
+  "id": "adobe-after-effects",
+  "name": "Adobe After Effects",
+  "category": "creative",
+  "subcategory": "compositing",
+  "match": [
+    {
+      "processName": "AfterFX"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/adobe-after-effects.png"
+  }
+}

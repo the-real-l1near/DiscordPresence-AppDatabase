@@ -1,0 +1,14 @@
+{
+  "id": "zed",
+  "name": "Zed",
+  "category": "development",
+  "subcategory": "code-editor",
+  "match": [
+    {
+      "processName": "zed"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/zed.png"
+  }
+}
