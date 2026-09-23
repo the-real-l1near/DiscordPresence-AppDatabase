@@ -1,0 +1,14 @@
+{
+  "id": "unity-hub",
+  "name": "Unity Hub",
+  "category": "development",
+  "subcategory": "game-engine",
+  "match": [
+    {
+      "processName": "Unity Hub"
+    }
+  ],
+  "presence": {
+    "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/unity.png"
+  }
+}

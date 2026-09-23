@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "databaseVersion": 11,
+  "databaseVersion": 12,
   "apps": [
     {
       "id": "adobe-after-effects",
@@ -776,6 +776,20 @@
       "match": [
         {
           "processName": "Unity"
+        }
+      ],
+      "presence": {
+        "largeImage": "https://raw.githubusercontent.com/the-real-l1near/DiscordPresence-AppDatabase/main/assets/unity.png"
+      }
+    },
+    {
+      "id": "unity-hub",
+      "name": "Unity Hub",
+      "category": "development",
+      "subcategory": "game-engine",
+      "match": [
+        {
+          "processName": "Unity Hub"
         }
       ],
       "presence": {
